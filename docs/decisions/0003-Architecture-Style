@@ -1,0 +1,48 @@
+
+# Choice of Architecture style 
+
+## Context and Problem Statement
+
+Choosing the correct architecture style for the Visa application system. 
+
+
+## Decision Drivers
+
+ decision driver 1 - The correct architecture style must be chosen for the application to ensure the maximum efficiency, scalability, security and maintainability
+
+## Considered Options
+
+* REST
+* Event Driven
+* Microservices
+
+
+## Decision Outcome
+
+Chosen option: "REST", because
+this architecture style meets the non-functional requirements the best, it can provide the scalability, security and maintainability required
+
+
+## Pros and Cons of the Options
+
+### REST
+
+Good, because the scalability will allow the application to handle the huge amount of application data from the millions of applications
+Good, because the unique tokens will ensure a good level of security for data privacy
+Good, because flexible, can be used with many data formats, making it easier for developers to use and adapt to their needs
+Bad, because without an interent connection it cannot be accessed, meaning if the Wi-Fi goes down the system is no longer functional
+
+### Event Driven
+
+Good, because of the good fault tolerance, if one service goes down then the rest are unaffected
+Good, because if there is a need for parallel processing it can be done with this architecture style
+Good because it doesn't consume a lot of resources, allowing for better costs and easier scalability
+Bad because can be difficult to find/troubleshoot issues due to the nature of the architecture
+Bad because of the complexity when applied to more complex systems
+
+### Microservices
+
+Good, because it allows rapid development
+Good, because it has good scalability due to the services being separate
+Bad, because hard to maintain
+Bad, because of performance overhead due to messaging between services
