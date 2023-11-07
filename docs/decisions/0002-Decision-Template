@@ -1,0 +1,43 @@
+
+
+## Context and Problem Statement
+Choosing the template for Architectural Decision Records for the project
+
+<!-- This is an optional element. Feel free to remove. -->
+## Decision Drivers
+
+Need to have a decisions document to keep track of all the changes and decision made to the project
+
+## Considered Options
+
+* Lightweight ADR
+* MADR 
+
+## Decision Outcome
+
+Chosen option: MADR, because
+MADR was the most robust option out of the two, ADR seemed too lightweight and not enough details. MADR is easy to use and visualise with an opportunity to 
+add more specific detail
+
+<!-- This is an optional element. Feel free to remove. -->
+### Consequences
+
+* Good, because the accuracy of what is being portrayed will be very good
+* Bad, because it was slightly difficult to set up and understand what it is that is being set up
+
+<!-- This is an optional element. Feel free to remove. -->
+## Pros and Cons of the Options
+
+### ADR
+
+Good, because lightweight
+Good, because easier to understand 
+Bad, because does not give an enough of an opportunity to be detailed
+
+
+### MADR
+
+MADR template | MADR template | https://github.com/adr/madr |
+
+ Good, because it allows the architectural decision to be portrayed very clearly and accurately
+ Bad, because faced difficulties setting up
