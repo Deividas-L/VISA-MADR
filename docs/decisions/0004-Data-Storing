@@ -4,16 +4,16 @@
 
 ## Context and Problem Statement
 
-The task at hand requires storing large amounts of data, and we need to find a solution that is able to store data efficiently and securely.
+Finding the correct way of storing data
 
 
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Decision Drivers
 
-* {decision driver 1, e.g., a force, facing concern, …}
-* {decision driver 2, e.g., a force, facing concern, …}
-* … <!-- numbers of drivers can vary -->
+* Security on the data must be strong
+* Large amounts of data requires efficiency
+* Large amounts of data requires 
 
 ## Considered Options
 
