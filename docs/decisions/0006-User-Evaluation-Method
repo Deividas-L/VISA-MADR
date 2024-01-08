@@ -1,0 +1,49 @@
+---
+
+
+
+## Context and Problem Statement
+
+Finding the best way to conduct a user evaluation with a prototype
+
+
+
+<!-- This is an optional element. Feel free to remove. -->
+## Decision Drivers
+
+* User evaluation methods can vary and give different results
+
+## Considered Options
+
+* Lab Evalutation
+* Interview
+* Guerilla
+
+## Decision Outcome
+
+Chosen option: Lab Evalutation, because
+it will allow users to get a feel for the application, and give accurate results and feedback
+
+<!-- This is an optional element. Feel free to remove. -->
+
+## Pros and Cons of the Options
+
+### Lab Evalutation
+
+* Good, because allows users to get a good look at application
+* Good, because allows users to give specific and tailored feedback
+* Good, because can choose what is measured and recorded during the lab evaluation
+* Bad, because the tasks are pre-set, so the users will behave in an expected way
+
+### Interview
+
+* Good, because can get an indepth response from each person
+* Good, because questions can be customised to fit the needs of the evaluation
+* Bad, because an interview needs to be accompanied with something
+
+### Guerilla
+
+* Good, because cheap and fast
+* Good, as the method usually has an informal atmosphere the users could feel more comfortable and relaxed
+* Bad, because the audience can be innacurate
+* Bad, because it can have interruptions
