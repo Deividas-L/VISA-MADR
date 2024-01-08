@@ -1,1 +1,56 @@
 
+---
+
+
+
+## Context and Problem Statement
+
+Finding the correct way of archiving data
+
+
+
+<!-- This is an optional element. Feel free to remove. -->
+## Decision Drivers
+
+* Large amounts of data will be accumulated over the years which will need archiving
+* Data does not need to be immediatly accessed
+
+## Considered Options
+
+* Relational Database
+* Non-Relational Database
+* File System
+
+## Decision Outcome
+
+Chosen option: File System, because
+the data does not need to be accessed often, so a cheaper and better alternative than hosting a whole database
+
+<!-- This is an optional element. Feel free to remove. -->
+
+## Pros and Cons of the Options
+
+### Relational
+
+* Good, because allows read and write functionality
+* Good, because it is structured
+* Good, because it stores specific types of data
+* Good, because the data is very strict and will therefore be accurate
+* Bad, because can be difficult to maintain with large amount of data
+* Bad, because can become slower with large data
+
+### Non-Relational Database
+
+* Good, because can handle many read queries
+* Good, because can store many different data types
+* Bad, because it is non relational, can make it difficult to make accurate queries
+* Bad, because lack of ACID
+
+### File System
+
+{example | description | pointer to more information | …}
+
+* Good, because can have a file for each student, encapsulation
+* Bad, because can become very messy and difficult to manage
+* Bad, because will be slow due to having to fetch many different files
+* Bad, because lack of ACID
