@@ -1,30 +1,12 @@
----
-# Configuration for the Jekyll template "Just the Docs"
-parent: Decisions
-nav_order: 100
-title: ADR Template
 
-# These are optional elements. Feel free to remove any of them.
-# status: "{proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)}"
-# date: {YYYY-MM-DD when the decision was last updated}
-# deciders: {list everyone involved in the decision}
-# consulted: {list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication}
-# informed: {list everyone who is kept up-to-date on progress; and with whom there is a one-way communication}
----
-<!-- we need to disable MD025, because we use the different heading "ADR Template" in the homepage (see above) than it is foreseen in the template -->
-<!-- markdownlint-disable-next-line MD025 -->
-# {short title of solved problem and solution}
-
-## Context and Problem Statement
 
 Choice of version control throughout the project
 
-<!-- This is an optional element. Feel free to remove. -->
+
 ## Decision Drivers
 
 Need to make a decision so that the project has version control
 No version control can make the project messy to work on
-* … <!-- numbers of drivers can vary -->
 
 ## Considered Options
 
@@ -48,10 +30,8 @@ Consequences
  Good, because it allows collaborative work to be done very easily
  Good, because automatic pipelines make it easy to release code to different environments
  Bad, because there is a potential that someone has not used it before
-* … <!-- numbers of consequences can vary -->
 
 
-<!-- This is an optional element. Feel free to remove. -->
 ## Pros and Cons of the Options
 
 ### Github
@@ -77,10 +57,6 @@ Bad, because can be expensive to use if a large team is behind it
  Good, because can add automatic release pipelines to help with distribution of code to diffferent environments
  Good, because good UI allows user to learn quicker
  Bad, because can take a while to get used to it, if not used before can be complex to pick up
-
-
-<!-- This is an optional element. Feel free to remove. -->
-## More Information
 
 {You might want to provide additional evidence/confidence for the decision outcome here and/or
  document the team agreement on the decision and/or
