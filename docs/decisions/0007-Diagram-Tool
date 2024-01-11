@@ -1,0 +1,47 @@
+
+# Choosing a technology to create diagrams
+
+## Context and Problem Statement
+
+There are many diagrams that need to be created, like the C4 model, and the most suitable technology needs to be used for this
+
+<!-- This is an optional element. Feel free to remove. -->
+## Decision Drivers
+
+* Creating diagrams
+
+## Considered Options
+
+* Draw.IO
+* Word
+* UML
+
+## Decision Outcome
+
+Chosen option: UML, it meeds the necessary criteria the best and allows for detailed diagrams
+
+
+<!-- This is an optional element. Feel free to remove. -->
+## Pros and Cons of the Options
+
+### Draw.IO
+
+* Good, because has a variety of preset shapes for UML
+* Good, because widely used
+* Bad, because have to arrange the diagram yourself, can get messy
+* … <!-- numbers of pros and cons can vary -->
+
+### Word
+
+* Good, because widely used and accepted
+* Bad, because no preset UML shapes
+* Bad, because not enough space for diagram on a page
+
+### UML
+
+* Good, because widely used and accepted
+* Good, because you can type the code in and it arranges it all for you
+* Good, because UML is very easy to learn
+* Good, because there is website dedicated to it, with documentation on its use. PlantUML
+* Bad, because sometimes the arranging of the diagram can be awkward
+
