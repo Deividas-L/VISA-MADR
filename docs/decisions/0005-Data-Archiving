@@ -1,15 +1,10 @@
 
 ---
 
-
-
 ## Context and Problem Statement
 
 Finding the correct way of archiving data
 
-
-
-<!-- This is an optional element. Feel free to remove. -->
 ## Decision Drivers
 
 * Large amounts of data will be accumulated over the years which will need archiving
@@ -26,7 +21,6 @@ Finding the correct way of archiving data
 Chosen option: File System, because
 the data does not need to be accessed often, so a cheaper and better alternative than hosting a whole database
 
-<!-- This is an optional element. Feel free to remove. -->
 
 ## Pros and Cons of the Options
 
@@ -48,7 +42,6 @@ the data does not need to be accessed often, so a cheaper and better alternative
 
 ### File System
 
-{example | description | pointer to more information | …}
 
 * Good, because can have a file for each student, encapsulation
 * Bad, because can become very messy and difficult to manage
