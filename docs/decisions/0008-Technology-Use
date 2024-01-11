@@ -1,0 +1,36 @@
+
+
+# Choice of technology to implement application
+
+## Context and Problem Statement
+
+Choosing the correct technology stack in order to achieve the best result for the application
+
+
+## Considered Options
+
+* Blazor
+* Javascript
+
+## Decision Outcome
+
+Chosen option: Blazor, the experience with blazor and the ever growing support will allow the app to be created very well. 
+
+
+## Pros and Cons of the Options
+
+### Blazor
+
+
+* Good, because very strong when paired with C# knowledge
+* Good, because good documentation
+* Good, because can combine web languages with C# very easily
+* Bad, because large file sizes
+
+
+### Javascript
+
+* Good, because widely used
+* Good, because the go-to web technology
+* Bad, because lack of familiarity
+
