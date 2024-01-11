@@ -1,14 +1,8 @@
----
-
-
 
 ## Context and Problem Statement
 
 Finding the correct way of storing data
 
-
-
-<!-- This is an optional element. Feel free to remove. -->
 ## Decision Drivers
 
 * Security on the data must be strong
@@ -26,8 +20,6 @@ Finding the correct way of storing data
 Chosen option: Relational Database, because
 it is structured and is meeting the criteria of reading and writing to it, with complex queries included available if ever necessary. It is also widely
 accepted and used, meeting the ACID property
-
-<!-- This is an optional element. Feel free to remove. -->
 
 ## Pros and Cons of the Options
 
@@ -49,7 +41,6 @@ accepted and used, meeting the ACID property
 
 ### File System
 
-{example | description | pointer to more information | …}
 
 * Good, because can have a file for each student, encapsulation
 * Bad, because can become very messy and difficult to manage
